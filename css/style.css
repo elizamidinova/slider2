@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a,a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+body{
+    background: #1D1D1D;
+}
+#hero-1{
+    background: url("../img/BG.png") no-repeat center/cover;
+    min-height: 100vh;
+
+}
+#hero-2{
+    background: url("../img/b2.jpg") no-repeat center/cover ;
+    min-height: 100vh;
+
+}
+#hero-3{
+    background: url("../img/b3.jpg") no-repeat center/cover;
+    min-height: 100vh;
+
+}
+.navbar{
+    position: absolute;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+background:   rgba(29, 29, 29, 0.5);
+ box-shadow: 0 40px 40px 8px  rgba(0, 0, 0, 0.16);
+backdrop-filter: blur(24px);
+min-height: 100vh;
+/*left:0;*/
+/*    z-index: 2;*/
+}
+.fas{
+    color: #eeeeee;
+}
+.nav-item{
+    margin: 50px 0;
+}
+.container{
+    width: 1140px;
+
+}
+.hero{
+    padding: 150px;
+}
+.hero-elem{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0FEFFD;
+    width: 111px;
+    height: 24px;
+    background: rgba(29, 29, 29, 0.5);
+    border-radius: 0 8px;
+margin-bottom:10px ;
+    padding: 4px 8px;
+
+}
+.hero-title{
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.subtitle{
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 32px;
+    width: 632px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.hero-btn{
+
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0 40px 40px rgba(0, 0, 0, 0.12);
+    background: linear-gradient(269.96deg, rgba(29, 29, 29, 0) 0.04%, rgba(29, 29, 29, 0.8) 99.5%);
+    width: 200px;
+    height: 56px;
+
+    top: 264px;
+
+    box-shadow: 0 16px 16px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 40px;
+
+
+
+    flex: none;
+    order: 4;
+
+}
+.slick-next{
+    position: absolute;
+    top:280px;
+font-size:0;
+    right: 100px;
+    background: url("../img/Chevron-Right@2x.png") no-repeat center/30px;
+    height: 30px;
+    width: 30px;
+border:none;
+
+}
+.slick-prev{
+    position: absolute;
+    top:280px;
+    font-size:0;
+    left: 100px;
+    background: url("../img/Chevron_left.svg.png") no-repeat center/20px;
+    height: 20px;
+    width: 20px;
+    border:none;
+z-index: 1;
+    display: none;
+}
+.slick-dots{
+position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    z-index: 2;
+    bottom: 40px;
+    right: 0;
+    left: 0;
+
+}
+.slick-dots li button{
+  font-size:0;
+
+    background: #FFFFFF;
+    width: 8px;
+    height: 8px;
+    border: none;
+    border-radius: 50px;
+    margin: auto;
+
+}
+.slick-dots li{
+margin: auto 10px;
+    opacity: 1;
+}
+.row{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+    .col-3{
+        width: 25%;
+}
+.card1{
+    background: url("../img/card-img.png")no-repeat center/cover;
+    Width :292px;
+    height :440px;
+    margin:20px 10px;
+
+}
+.card2{
+    background: url("../img/card-img2.png")no-repeat center/cover;
+    Width :292px;
+    height :440px;
+    margin:20px 10px;
+}
+.card3{
+
+    margin:20px 10px;
+    Width :292px;
+    height :440px;
+    background: url("../img/card-img3.png")no-repeat center/cover;
+}
+.card4{
+    margin:20px 10px;
+    Width :292px;
+    height :440px;
+    background: url("../img/card-img4.png")no-repeat center/cover;
+}
+.card5{
+    margin:20px 10px;
+    Width :292px;
+    height :440px;
+    background: url("../img/card-img5.png")no-repeat center/cover;
+
+}
+
+
+.hero-elem2{
+
+
+    font-size: 17px;
+    line-height: 16px;
+
+    color: #0FEFFD;
+
+    margin: 0 5px;
+    width: 65px;
+    height: 24px;
+    left: 24px;
+    top: 312px;
+
+    background: rgba(29, 29, 29, 0.5);
+    border-radius: 0 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 8px;
+
+
+}
+.title{
+    font-size: 26px;
+    line-height: 32px;
+    width: 244px;
+    height: 32px;
+    color: #FFFFFF;
+
+
+}
+.fantasy{
+    margin-top: 300px;
+    line-height: 40px;
+}
+
+.row2{
+    display: flex;
+flex-wrap: wrap;
+}
+.col-4{
+    width: 33px;
+}
+.Card{
+    margin:20px 10px;
+    background: url("../img/img1.png") no-repeat center/cover;
+
+    width: 504px;
+    height: 636px;
+}
+.Card2{
+    margin:20px 10px;
+    background: url("../img/img2.png") no-repeat center/cover;
+    width: 504px;
+    height: 636px;
+}
+.Card3{
+    margin:20px 10px;
+    background: url("../img/card-img6.png") no-repeat center/cover;
+    width: 504px;
+    height: 636px;
+}
+.Card4{
+    margin:20px 10px;
+    background: url("../img/card-img3.png")no-repeat center/cover;
+    width: 504px;
+    height: 636px;
+}
+.title{
+    width: 456px;
+    height: 40px;
+    font-size: 32px;
+    line-height: 40px;
+
+
+    color: #FFFFFF;
+}
+.hero-elem3{
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+
+    /* Primary/Teal */
+
+    color: #0FEFFD;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 8px;
+
+    position: static;
+    width: 115px;
+    height: 24px;
+    left: 24px;
+    top: 584px;
+
+    background: rgba(29, 29, 29, 0.5);
+    border-radius: 0px 8px;
+
+}
+.fantasy2{
+    margin-top: 484px;
+    margin-left: 25px;
+    line-height: 40px;
+}
+.releases{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+
+    position: absolute;
+    width: 138px;
+    height: 24px;
+border: none;
+    order:0;
+   color:white;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.right{
+    background: url("../img/Chevron-Right@2x.png") no-repeat center/30px;
+    height: 30px;
+    width: 30px;
+    border:none;
+    margin-left: 134px;
+
+}

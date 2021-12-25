@@ -1,0 +1,234 @@
+@media (max-width: 1024px) {
+
+    .container{
+        width: 1000px;
+    }
+
+    .Hero{
+        padding: 120px;
+    }
+    .title2{
+        font-size: 62px;
+
+        line-height: 94px;
+
+
+    }
+
+    .elem1{
+        font-size: 27px;
+        line-height: 22px;
+        color: #0FEFFD;
+        width: 174px;
+        height: 24px;
+        margin-bottom:20px;
+    }
+    .subs{
+        font-size: 28px;
+        line-height: 43px;
+
+        margin-bottom: 10px;
+    }
+    .btn2{
+        font-size: 31px;
+        line-height: 20px;
+
+
+        width: 227px;
+        height: 71px;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .container{
+        width: 900px;
+    }
+
+    .Hero{
+        padding: 120px;
+    }
+    .title2{
+        font-size: 62px;
+
+        line-height: 94px;
+
+
+    }
+
+.elem1{
+    font-size: 27px;
+    line-height: 22px;
+    color: #0FEFFD;
+    width: 174px;
+    height: 24px;
+    margin-bottom:20px;
+}
+    .subs{
+        font-size: 28px;
+        line-height: 43px;
+
+        margin-bottom: 10px;
+    }
+    .btn2{
+        font-size: 31px;
+        line-height: 20px;
+
+
+        width: 227px;
+        height: 71px;
+    }
+
+}
+@media (max-width: 768px) {
+
+    .container{
+        width: 700px;
+    }
+
+    .Hero{
+        padding: 80px;
+    }
+    .title2{
+        font-size: 47px;
+
+        line-height: 40px;
+
+
+    }
+
+
+    .subs{
+        font-size: 18px;
+        line-height: 30px;
+        width: 449px;
+        margin-bottom: 10px;
+    }
+    .btn2{
+        font-size: 26px;
+        line-height: 17px;
+
+
+        width: 195px;
+        height: 53px;
+    }
+
+}
+@media (max-width: 480px) {
+
+    .container{
+        width: 400px;
+    }
+    .elem1{
+        width: 100px;
+        margin-left: 0;
+    }
+    .Hero{
+        padding: 63px;
+    }
+    .title2{
+        font-size: 43px;
+
+        line-height: 40px;
+
+
+    }
+    .elem1{
+        font-size: 27px;
+        line-height: 22px;
+        color: #0FEFFD;
+        width: 174px;
+        height: 24px;
+        margin-bottom:20px;
+    }
+    .row-card{
+        width: 292px;
+        height:665px;
+    }
+    .element{
+        margin-top: 500px;
+        line-height: 67px;
+    }
+    .Title{
+        font-size: 36px;
+        line-height: 32px;
+
+    }
+    .subs{
+        font-size: 17px;
+        line-height: 24px;
+        width: 332px;
+        margin-bottom: 15px;
+    }
+    .btn2{
+        font-size: 17px;
+        line-height: 17px;
+
+
+        width: 177px;
+        height: 40px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .container{
+        width: 300px;
+    }
+
+    .elem1{
+        font-size: 12px;
+        line-height: 22px;
+        color: #0FEFFD;
+        width: 79px;
+        height: 24px;
+        margin-bottom:20px;
+    }
+    .row-card{
+        width: 292px;
+        height: 450px;
+    }
+    .Hero{
+        padding: 56px;
+    }
+    .title2{
+        font-size: 40px;
+
+        line-height: 38px;
+
+
+    }
+    .subs{
+        font-size: 14px;
+        line-height: 22px;
+        width: 248px;
+        margin-bottom: 10px;
+    }
+.btn2{
+    font-size: 17px;
+    line-height: 17px;
+
+
+    width: 168px;
+    height: 40px;
+}
+    .element{
+        margin-top: 300px;
+        line-height: 67px;
+    }
+    .Title{
+        font-size: 28px;
+        line-height: 32px;
+
+    }
+    .cards{
+        width: 292px;
+        height: 470px;
+    }
+    .fan{
+        line-height: 40px;
+        margin-top: 300px;
+    }
+}
